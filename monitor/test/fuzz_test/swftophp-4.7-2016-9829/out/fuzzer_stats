@@ -1,0 +1,30 @@
+start_time        : 1713947909
+last_update       : 1713948089
+fuzzer_pid        : 270727
+cycles_done       : 0
+execs_done        : 109850
+execs_per_sec     : 651.07
+paths_total       : 13
+paths_favored     : 1
+paths_found       : 12
+paths_imported    : 0
+max_depth         : 2
+cur_path          : 0
+pending_favs      : 1
+pending_total     : 13
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.83%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1713948033
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 109850
+exec_timeout      : 60
+afl_banner        : swftophp-4.7-2016-9829
+afl_version       : 2.57b
+target_mode       : default
+command_line      : /home/zy/works/AFL-Interface/afl-2.57b/afl-fuzz -m none -z exp -c 45m -i /home/zy/works/AFL-Interface/monitor/test/fuzz_test/swftophp-4.7-2016-9829/in -o /home/zy/works/AFL-Interface/monitor/test/fuzz_test/swftophp-4.7-2016-9829/out /home/zy/works/AFL-Interface/monitor/test/fuzz_test/swftophp-4.7-2016-9829/swftophp-4.7-2016-9829 @@
+slowest_exec_ms   : 60
+peak_rss_mb       : not available while afl is running

@@ -1,0 +1,13 @@
+global-include codecheck/*
+graft codecheck/auth
+graft codecheck/database
+graft codecheck/ai
+graft codecheck/analyser
+graft codecheck/emailSender
+graft codecheck/manage
+graft codecheck/monitor
+graft codecheck/static
+graft codecheck/utils
+global-exlucde *.pyc
+global-exlucde *.git
+global-exclude .idea
